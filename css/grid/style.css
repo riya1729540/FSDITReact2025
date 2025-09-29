@@ -33,12 +33,10 @@
 }
 
 .box1{
+
     border: 1px dotted red;
     background-color: rgb(210, 210, 215);
-    /* grid-column-start: 1;
-    grid-column-end: 4;
-    grid-row-start: 1;
-    grid-row-end: 2; */
+    
     display: grid;
     grid-template-columns: repeat(2,1fr);
     grid-template-rows: repeat(2,1fr);
@@ -115,10 +113,7 @@
 .box3{
     border: 1px dotted red;
     background-color: rgb(210, 210, 212);
-    /* grid-column-start: 1;
-    grid-column-end: 4;
-    grid-row-start: 1;
-    grid-row-end: 2; */
+    
     display: grid;
     grid-template-columns: repeat(2,1fr);
     grid-template-rows: repeat(2,1fr);
@@ -157,63 +152,28 @@
 .box4{
     border: 1px dotted red;
     background-color: rgb(210, 210, 212);
-    /* grid-column-start: 1;
-    grid-column-end: 4;
-    grid-row-start: 1;
-    grid-row-end: 2; */
-    display: grid;
-    grid-template-columns: repeat(2,1fr);
-    grid-template-rows: repeat(2,1fr);
-}
-/* .box41{
-    width: 120px;
-    height: 150px;
-    border: 1px brown;
-    background-color: blueviolet;
-    margin-top: 20px;
-    margin-left:10px;
     
+    display: flex;
+    flex-direction: column;
+   justify-content: space-evenly;
+   align-items: center;
 }
-.box42{
-    width: 120px;
-    height: 150px;
-    border: 1px brown;
-    background-color: rgb(46, 226, 43);
-    margin-top: 20px;
-    margin-right: 20px;
-}.box43{
-    width: 120px;
-    height: 150px;
-    border: 1px brown;
-    background-color: rgb(229, 15, 193);
-    margin-bottom: 20px;
-    margin-left: 20px;
-}.box44{
-    width: 120px;
-    height: 150px;
-    border: 1px brown;
-    background-color: blueviolet;
-    margin-bottom: 20px;
-    margin-right: 20px;
-} */
 
 
 .box41 {
-  width: 120px;
-    height: 150px;
+  width: 190px;
+    height: 40%;
     border: 1px brown;
-    background-color: blueviolet;
-    margin-top: 20px;
-    margin-left:20px;
+    background-color: rgb(255, 255, 255);
+    
 }
 
 .box42 {
-  width: 120px;
-    height: 150px;
+  width: 150px;
+    height: 40%;
     border: 1px brown;
-    background-color: rgb(46, 226, 43);
-    margin-top: 20px;
-    margin-left: 20px;
+    background-color: rgb(255, 255, 255);
+
 }
 
 .box43 {
@@ -234,10 +194,12 @@
     margin-left: 20px;
 }
 .footer{
+     /* margin: 6%; */
+ 
      grid-column-start: 1;
     grid-column-end: 5;
     grid-row-start: 4;
-    grid-row-end: 5;
+    grid-row-end: 4;
     background-color: rgb(7, 8, 9);
     border : 1px solid black;
     color:aliceblue;
